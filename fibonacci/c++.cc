@@ -1,6 +1,6 @@
 #include <iostream>
 
-int64_t fib(int64_t n) {
+extern "C" int64_t fib(int64_t n) {
     if (n <= 1) return n;
     return fib(n - 1) + fib(n - 2);
 }
