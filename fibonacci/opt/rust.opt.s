@@ -3,23 +3,23 @@ fib:
 	2:	push   rbx
 	3:	sub    rsp,0x8
 	7:	xor    r14d,r14d
-	10:	cmp    rdi,0x2
-	14:	jl     5249 <fib+0x39>
-	20:	mov    rbx,rdi
-	23:	nop    WORD PTR [rax+rax*1+0x0]
-	30:	
-	32:	lea    rdi,[rbx-0x1]
-	36:	call   5210 <fib>
-	41:	lea    rdi,[rbx-0x2]
-	45:	add    r14,rax
-	48:	cmp    rbx,0x3
-	52:	mov    rbx,rdi
-	55:	jg     5230 <fib+0x20>
-	57:	add    r14,rdi
-	60:	mov    rax,r14
-	63:	add    rsp,0x8
-	67:	pop    rbx
-	68:	pop    r14
-	70:	ret    
-	71:	nop    WORD PTR [rax+rax*1+0x0]
-	78:	
+	a:	cmp    rdi,0x2
+	e:	jl     39
+	14:	mov    rbx,rdi
+	17:	nop    WORD PTR [rax+rax*1+0x0]
+	1e:	
+	20:	lea    rdi,[rbx-0x1]
+	24:	call   fib
+	29:	lea    rdi,[rbx-0x2]
+	2d:	add    r14,rax
+	30:	cmp    rbx,0x3
+	34:	mov    rbx,rdi
+	37:	jg     20
+	39:	add    r14,rdi
+	3c:	mov    rax,r14
+	3f:	add    rsp,0x8
+	43:	pop    rbx
+	44:	pop    r14
+	46:	ret    
+	47:	nop    WORD PTR [rax+rax*1+0x0]
+	4e:	
