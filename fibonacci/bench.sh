@@ -25,4 +25,4 @@ mkdir -p $opt
 ./dis.t ./cpp fib  > ./$opt/cpp.$opt.s
 ./dis.t ./c fib    > ./$opt/c.$opt.s
 
-rm odin rust cpp c
+#rm odin rust cpp c
