@@ -3,6 +3,10 @@
 cd fibonacci
 chmod +x bench.sh
 ./bench.sh # or `./bench.sh opt` for optimisation
+hyperfine ./c ./cpp ./odin ./v ./rust
+valgrind ./c
+valgrind ./cpp
+(valgrind ...)
 ```
 ## Result In My Machine
 **My Machine System Info:**
@@ -64,6 +68,7 @@ Rust: #6
 
 ## Memory Leaks Result (Valgrind):
 > No Optimisation
+
 > Note: With Optimisation Is Same
 ```js
 C:
