@@ -9,6 +9,8 @@ if [[ $opt == "opt" ]]
     v -prod -autofree v.v
     #mys build
     odin build odin.odin -opt:3 -no-bounds-check
+    ocamlc -ccopt 3 ocaml.ml -o ocaml
+    ghc haskell.hs -O3
 else
     opt="dbg"
     gcc c.c -o c
@@ -17,6 +19,8 @@ else
     v  -autofree v.v
     #mys build
     odin build odin.odin
+    ocamlc ocaml.ml -o ocaml
+    ghc haskell.hs
 fi
 
 mkdir -p $opt
@@ -25,4 +29,5 @@ mkdir -p $opt
 ./dis.t ./cpp fib  > ./$opt/cpp.$opt.s
 ./dis.t ./c fib    > ./$opt/c.$opt.s
 
+rm ocaml.cmi ocaml.cmo haskell.hi haskell.o
 #rm odin rust cpp c
