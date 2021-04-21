@@ -1,0 +1,8 @@
+[package]
+name = "fib"
+version = "0.1.0"
+authors = ["Ali Chraghi <chraghiali1@gmail.com>"]
+description = "Add a short package description here."
+
+[dependencies]
+# foobar = "latest"
