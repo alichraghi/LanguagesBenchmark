@@ -33,8 +33,8 @@ C: #3
   Range (min … max):   26.926 s … 27.389 s    10 runs
  
 V: #4
-  Time (mean ± σ):     34.211 s ±  0.051 s    [User: 34.160 s, System: 0.005 s]
-  Range (min … max):   34.135 s … 34.281 s    10 runs
+  Time (mean ± σ):     38.343 s ±  2.064 s    [User: 38.226 s, System: 0.032 s]
+  Range (min … max):   35.403 s … 41.767 s    10 runs
  
 Rust: Failed With 'thread 'main' panicked at 'attempt to add with overflow', rust.rs:7:12' Error
 Mys: <No Optimisation> Not Supported Yet
