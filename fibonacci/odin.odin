@@ -2,6 +2,8 @@ package main
 
 import "core:fmt"
 
+
+@(link_name="fib")
 fibonacci :: proc(n: i64) -> i64 {
     if n <= 1 {
         return n;
