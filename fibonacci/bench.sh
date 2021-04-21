@@ -6,6 +6,7 @@ odin build odin.odin -opt:3 -no-bounds-check
 ocamlc -ccopt 3 ocaml.ml -o ocaml
 ghc haskell.hs -O3
 crystal crystal.cr --release
+nelua nelua.nelua -r -w -M -o ./nelu
 #mys build
 
 rm ocaml.cmi ocaml.cmo haskell.hi haskell.o
