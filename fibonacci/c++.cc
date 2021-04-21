@@ -6,6 +6,6 @@ int64_t fib(int64_t n) {
 }
 
 int main() {
-    std::cout << fib(47) << '\n';
+    printf("%ld", fib(47));
     return 0;
 }

@@ -1,7 +1,7 @@
-def fibonacci(number: i64) -> i64:
+def fib(number: i64) -> i64:
     if number <= 1:
         return number
-    return fibonacci(number - 1) + fibonacci(number - 2)
+    return fib(number - 1) + fib(number - 2)
 
 def main():
     print(f"{fibonacci(i64(47))}")
