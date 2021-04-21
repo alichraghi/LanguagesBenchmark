@@ -1,11 +1,11 @@
 #include <iostream>
 
-extern "C" int64_t fib(int64_t n) {
+uint64_t fib(uint64_t n) {
     if (n <= 1) return n;
     return fib(n - 1) + fib(n - 2);
 }
 
 int main() {
-    printf("%ld", fib(47));
+    printf("%ld\n", fib(47));
     return 0;
 }
