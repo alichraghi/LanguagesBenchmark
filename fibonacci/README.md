@@ -47,7 +47,11 @@ Ocaml: #6
   Time (mean ± σ):     16.266 s ±  1.432 s    [User: 16.028 s, System: 0.012 s]
   Range (min … max):   14.569 s … 18.582 s    10 runs
 
-Haskell: #7
+Crystal: #7
+  Time (mean ± σ):     22.330 s ±  3.161 s    [User: 22.248 s, System: 0.012 s]
+  Range (min … max):   18.272 s … 26.376 s    10 runs
+
+Haskell: #8
   Time (mean ± σ):     215.606 s ± 13.124 s    [User: 214.366 s, System: 0.562 s]
   Range (min … max):   202.465 s … 244.548 s    10 runs
 ```
@@ -64,11 +68,14 @@ Haskell:
     still reachable: 156 bytes in 11 blocks
 Rust:
     still reachable: 205 bytes in 5 blocks
+V:
+    still reachable: 17,256 bytes in 18 blocks
 Mys:
     possibly lost: 288 bytes in 1 blocks
     still reachable: 760 bytes in 6 blocks
-V:
-    still reachable: 17,256 bytes in 18 blocks
+Crystal:
+    definitely lost: 8,192 bytes in 1 blocks
+    possibly lost: 864 bytes in 3 blocks
 Ocaml:
     definitely lost: 256 bytes in 1 blocks
     indirectly lost: 0 bytes in 0 blocks
