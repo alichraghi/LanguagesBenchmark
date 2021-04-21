@@ -2,7 +2,7 @@
 ```sh
 cd fibonacci
 chmod +x bench.sh
-./bench.sh # or `./bench.sh opt` for optimisation
+./bench.sh
 hyperfine ./c ./cpp ./odin ./v ./rust
 valgrind ./c
 valgrind ./cpp
