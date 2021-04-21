@@ -10,7 +10,7 @@ else
     gcc c.c -o c
     g++ c++.cc -o cpp
     rustc rust.rs
-    v v.v
+    v  -autofree v.v
     #mys build
     odin build odin.odin
 fi
