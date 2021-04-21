@@ -67,7 +67,7 @@ fib:
 	112:	mov    QWORD PTR [rsp+0x58],r8
 	117:	mov    QWORD PTR [rsp+0x50],rdx
 	11c:	mov    QWORD PTR [rsp+0x48],r9
-	121:	call   12f0 <fib>
+	121:	call   fib
 	126:	mov    r11,QWORD PTR [rsp+0x68]
 	12b:	mov    r9,QWORD PTR [rsp+0x48]
 	130:	mov    rdx,QWORD PTR [rsp+0x50]

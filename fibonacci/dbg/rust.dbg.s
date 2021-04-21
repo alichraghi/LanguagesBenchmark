@@ -13,7 +13,7 @@ fib:
 	29:	mov    QWORD PTR [rsp+0x20],rax
 	2e:	jne    92
 	30:	mov    rdi,QWORD PTR [rsp+0x20]
-	35:	call   5330 <fib>
+	35:	call   fib
 	3a:	mov    QWORD PTR [rsp+0x18],rax
 	3f:	mov    rax,QWORD PTR [rsp+0x28]
 	44:	sub    rax,0x2
@@ -22,7 +22,7 @@ fib:
 	50:	mov    QWORD PTR [rsp+0x10],rax
 	55:	jne    b0
 	57:	mov    rdi,QWORD PTR [rsp+0x10]
-	5c:	call   5330 <fib>
+	5c:	call   fib
 	61:	mov    QWORD PTR [rsp+0x8],rax
 	66:	mov    rax,QWORD PTR [rsp+0x18]
 	6b:	mov    rcx,QWORD PTR [rsp+0x8]

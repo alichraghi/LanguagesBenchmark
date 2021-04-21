@@ -14,13 +14,13 @@ fib:
 	2a:	sub    rax,0x1
 	30:	mov    rdi,rax
 	33:	mov    rsi,QWORD PTR [rsp+0x8]
-	38:	call   40bf70 <fib>
+	38:	call   fib
 	3d:	mov    rcx,QWORD PTR [rsp+0x10]
 	42:	sub    rcx,0x2
 	49:	mov    rdi,rcx
 	4c:	mov    rsi,QWORD PTR [rsp+0x8]
 	51:	mov    QWORD PTR [rsp],rax
-	55:	call   40bf70 <fib>
+	55:	call   fib
 	5a:	mov    rcx,QWORD PTR [rsp]
 	5e:	add    rcx,rax
 	61:	mov    rax,rcx

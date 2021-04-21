@@ -12,12 +12,12 @@ fib:
 	1e:	mov    rax,QWORD PTR [rbp-0x18]
 	22:	sub    rax,0x1
 	26:	mov    rdi,rax
-	29:	call   11a9 <fib>
+	29:	call   fib
 	2e:	mov    rbx,rax
 	31:	mov    rax,QWORD PTR [rbp-0x18]
 	35:	sub    rax,0x2
 	39:	mov    rdi,rax
-	3c:	call   11a9 <fib>
+	3c:	call   fib
 	41:	add    rax,rbx
 	44:	mov    rbx,QWORD PTR [rbp-0x8]
 	48:	leave  

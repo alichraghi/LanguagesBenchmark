@@ -9,6 +9,7 @@ if (@ARGV >= 2) {
       $line = $2;
       $line  =~ s/^\s+(\w+):\s*(?:\w\w )+[\t ]*(.*?)$/\t@{[sprintf("%x", hex($1)-hex($addr))]}:\t$2/gm;
       $line =~ s/\w+\s*\<$arg\+0x(\w+)\>/$1/g;
+      $line =~ s/\w+\s*\<$arg\>/$arg/g;
       print "$arg:\n$line\n";
     } else {
       print "No match for <$arg>\n";

@@ -12,7 +12,7 @@ fib:
 	19:	nop    DWORD PTR [rax+0x0]
 	20:	lea    rdi,[rbx-0x1]
 	24:	mov    rsi,r14
-	27:	call   4097b0 <fib>
+	27:	call   fib
 	2c:	lea    rdi,[rbx-0x2]
 	30:	add    r15,rax
 	33:	cmp    rbx,0x4

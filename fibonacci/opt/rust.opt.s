@@ -9,7 +9,7 @@ fib:
 	17:	nop    WORD PTR [rax+rax*1+0x0]
 	1e:	
 	20:	lea    rdi,[rbx-0x1]
-	24:	call   5210 <fib>
+	24:	call   fib
 	29:	lea    rdi,[rbx-0x2]
 	2d:	add    r14,rax
 	30:	cmp    rbx,0x3
