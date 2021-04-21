@@ -5,7 +5,7 @@ if [[ $1 == "opt" ]]
     rustc -C opt-level=3 rust.rs
     v -prod -autofree v.v
     #mys build
-    ~/Odin/odin build -opt:3 -no-bounds-check odin.odin
+    ~/Odin/odin build odin.odin -opt:3 -no-bounds-check
 else
     gcc c.c -o c
     g++ c++.cc -o cpp
