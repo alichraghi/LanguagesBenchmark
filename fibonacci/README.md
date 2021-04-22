@@ -90,7 +90,6 @@ Crystal:
     possibly lost: 864 bytes in 3 blocks
 Ocaml:
     definitely lost: 256 bytes in 1 blocks
-    indirectly lost: 0 bytes in 0 blocks
     possibly lost: 3,936,288 bytes in 1 blocks
     still reachable: 3,561,797 bytes in 28 blocks
 ```
