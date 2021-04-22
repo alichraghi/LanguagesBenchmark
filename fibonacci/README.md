@@ -55,7 +55,11 @@ Crystal: #9
   Time (mean ± σ):     22.330 s ±  3.161 s    [User: 22.248 s, System: 0.012 s]
   Range (min … max):   18.272 s … 26.376 s    10 runs
 
-Haskell: #10
+Go: #10
+  Time (mean ± σ):     22.714 s ±  1.019 s    [User: 22.656 s, System: 0.049 s]
+  Range (min … max):   21.468 s … 24.240 s    10 runs
+
+Haskell: #11
   Time (mean ± σ):     215.606 s ± 13.124 s    [User: 214.366 s, System: 0.562 s]
   Range (min … max):   202.465 s … 244.548 s    10 runs
 ```
@@ -69,6 +73,8 @@ C++:
 Nelua:   
     No Leaks
 Odin:   
+    No Leaks
+Go: 
     No Leaks
 Haskell:
     still reachable: 156 bytes in 11 blocks
