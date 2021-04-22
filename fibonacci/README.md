@@ -59,7 +59,11 @@ Go: #10
   Time (mean ± σ):     22.714 s ±  1.019 s    [User: 22.656 s, System: 0.049 s]
   Range (min … max):   21.468 s … 24.240 s    10 runs
 
-Haskell: #11
+NodeJS: #11
+  Time (mean ± σ):     67.156 s ±  9.122 s    [User: 66.943 s, System: 0.030 s]
+  Range (min … max):   43.678 s … 75.228 s    10 runs
+
+Haskell: #12
   Time (mean ± σ):     215.606 s ± 13.124 s    [User: 214.366 s, System: 0.562 s]
   Range (min … max):   202.465 s … 244.548 s    10 runs
 ```
@@ -88,6 +92,12 @@ Mys:
 Crystal:
     definitely lost: 8,192 bytes in 1 blocks
     possibly lost: 864 bytes in 3 blocks
+NodeJS:
+    definitely lost: 4,368 bytes in 4 blocks
+    indirectly lost: 736 bytes in 23 blocks
+    possibly lost: 1,824 bytes in 6 blocks
+    still reachable: 1,355,215 bytes in 5,199 blocks of which reachable via heuristic:
+    newarray: 3,528 bytes in 9 blocks
 Ocaml:
     definitely lost: 256 bytes in 1 blocks
     possibly lost: 3,936,288 bytes in 1 blocks
