@@ -70,6 +70,8 @@ NodeJS: #12
 Haskell: #13
   Time (mean ± σ):     215.606 s ± 13.124 s    [User: 214.366 s, System: 0.562 s]
   Range (min … max):   202.465 s … 244.548 s    10 runs
+Pyhthon: #14
+  More Than 20m
 ```
 
 ## Memory Leaks Result (Valgrind):
@@ -98,6 +100,9 @@ Mys:
 Crystal:
     definitely lost: 8,192 bytes in 1 blocks
     possibly lost: 864 bytes in 3 blocks
+Python:
+    possibly lost: 1,632 bytes in 3 blocks
+    still reachable: 299,558 bytes in 132 blocks
 NodeJS:
     definitely lost: 4,368 bytes in 4 blocks
     indirectly lost: 736 bytes in 23 blocks
