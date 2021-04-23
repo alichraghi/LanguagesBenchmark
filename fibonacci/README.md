@@ -3,7 +3,7 @@
 cd fibonacci
 chmod +x bench.sh
 ./bench.sh
-hyperfine ./c ./cpp ./odin ./v ./rust
+hyperfine ./c ./cpp ./odin ./v ./rust ./go ./crystal ./haskell ./ocaml ./nelua ./zig
 valgrind ./c
 valgrind ./cpp
 (valgrind ...)
