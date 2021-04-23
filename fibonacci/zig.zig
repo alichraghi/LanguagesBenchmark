@@ -1,4 +1,4 @@
-const log = @import("std").log;
+const print = @import("std").debug.print;
 
 fn fib(n: u64) u64 {
     if (n <= 1) return n;
@@ -6,5 +6,5 @@ fn fib(n: u64) u64 {
 }
 
 pub fn main() void {
-    log.err("{}", .{fib(47)});
+    print("{}\n", .{fib(47)});
 }
