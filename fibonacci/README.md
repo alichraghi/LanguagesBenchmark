@@ -74,6 +74,40 @@ Pyhthon: #14
   More Than 20m
 ```
 
+## Compile Time
+```js
+OcamlC:
+  Time (mean ± σ):      69.4 ms ± 180.5 ms    [User: 8.4 ms, System: 5.6 ms]
+  Range (min … max):    11.0 ms … 583.1 ms    10 runs
+GCC:
+  Time (mean ± σ):     127.0 ms ± 157.5 ms    [User: 64.9 ms, System: 12.3 ms]
+  Range (min … max):    70.9 ms … 574.9 ms    10 runs
+G++:
+  Time (mean ± σ):      94.8 ms ±   7.3 ms    [User: 78.0 ms, System: 15.9 ms]
+  Range (min … max):    87.2 ms … 123.9 ms    30 runs
+Zig:
+  Time (mean ± σ):     116.7 ms ± 317.9 ms    [User: 97.9 ms, System: 17.9 ms]
+  Range (min … max):    12.6 ms … 1021.5 ms    10 runs
+Go:
+  Time (mean ± σ):     656.8 ms ± 1618.0 ms    [User: 147.5 ms, System: 64.6 ms]
+  Range (min … max):    93.4 ms … 5260.1 ms    10 runs
+GHC (Haskell):
+  Time (mean ± σ):      1.226 s ±  3.472 s    [User: 156.3 ms, System: 44.2 ms]
+  Range (min … max):    0.114 s … 11.107 s    10 runs
+RustC:
+  Time (mean ± σ):      1.752 s ±  4.505 s    [User: 301.4 ms, System: 87.3 ms]
+  Range (min … max):    0.297 s … 14.572 s    10 runs
+Odin:
+  Time (mean ± σ):      3.393 s ±  0.512 s    [User: 3.073 s, System: 0.217 s]
+  Range (min … max):    3.164 s …  4.847 s    10 runs
+V:
+  Time (mean ± σ):      3.586 s ±  0.854 s    [User: 3.180 s, System: 0.147 s]
+  Range (min … max):    2.972 s …  5.634 s    10 runs
+Crystal:
+  Time (mean ± σ):     70.932 s ±  5.808 s    [User: 71.007 s, System: 0.332 s]
+  Range (min … max):   64.797 s … 79.315 s    10 runs
+```
+
 ## Memory Leaks Result (Valgrind):
 ```js
 C:
