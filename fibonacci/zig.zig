@@ -5,6 +5,6 @@ fn fib(n: u64) u64 {
     return fib(n - 1) + fib(n - 2);
 }
 
-pub fn main() !void {
+pub fn main() void {
     log.err("{}", .{fib(47)});
 }
