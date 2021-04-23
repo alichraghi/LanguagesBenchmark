@@ -36,8 +36,8 @@ C: #4
   Range (min … max):    8.651 s … 11.347 s    10 runs
 
 Zig: #5
-  Time (mean ± σ):     10.015 s ±  0.277 s    [User: 10.005 s, System: 0.002 s]
-  Range (min … max):    9.844 s … 10.735 s    10 runs
+  Time (mean ± σ):     10.509 s ±  0.615 s    [User: 10.498 s, System: 0.003 s]
+  Range (min … max):    9.884 s … 11.575 s    10 runs
  
 V: #6
   Time (mean ± σ):     10.645 s ±  1.087 s    [User: 10.633 s, System: 0.002 s]
