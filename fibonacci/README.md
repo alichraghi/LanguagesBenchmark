@@ -67,6 +67,10 @@ NodeJS: #12
   Time (mean ± σ):     67.156 s ±  9.122 s    [User: 66.943 s, System: 0.030 s]
   Range (min … max):   43.678 s … 75.228 s    10 runs
 
+Lua:
+  Time (mean ± σ):     213.361 s ± 5.329 s    [User: 214.549 s, System: 0.002 s]
+  Range (min … max):    210.475 s … 215.276 s    10 runs
+
 Haskell: #13
   Time (mean ± σ):     215.606 s ± 13.124 s    [User: 214.366 s, System: 0.562 s]
   Range (min … max):   202.465 s … 244.548 s    10 runs
@@ -121,6 +125,8 @@ Odin:
 Zig:
     No Leaks
 Go: 
+    No Leaks
+Lua:
     No Leaks
 Haskell:
     still reachable: 156 bytes in 11 blocks
