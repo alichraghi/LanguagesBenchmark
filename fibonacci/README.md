@@ -19,13 +19,13 @@ HARD: HDD
 
 ## HyperFine Result:
 ```js 
-C++: #1
-  Time (mean ± σ):      8.994 s ±  0.521 s    [User: 8.974 s, System: 0.005 s]
-  Range (min … max):    8.506 s … 10.025 s    10 runs
-
-Nelua: #2
+Nelua: #1
   Time (mean ± σ):      9.169 s ±  0.302 s    [User: 9.161 s, System: 0.000 s]
   Range (min … max):    8.937 s …  9.800 s    10 runs
+
+C++: #2
+  Time (mean ± σ):      8.994 s ±  0.521 s    [User: 8.974 s, System: 0.005 s]
+  Range (min … max):    8.506 s … 10.025 s    10 runs
 
 Mys: #3
   Time (mean ± σ):      9.436 s ±  0.783 s    [User: 9.418 s, System: 0.003 s]
@@ -67,14 +67,14 @@ NodeJS: #12
   Time (mean ± σ):     67.156 s ±  9.122 s    [User: 66.943 s, System: 0.030 s]
   Range (min … max):   43.678 s … 75.228 s    10 runs
 
-Lua:
+Lua: #13
   Time (mean ± σ):     213.361 s ± 5.329 s    [User: 214.549 s, System: 0.002 s]
   Range (min … max):    210.475 s … 215.276 s    10 runs
 
-Haskell: #13
+Haskell: #14
   Time (mean ± σ):     215.606 s ± 13.124 s    [User: 214.366 s, System: 0.562 s]
   Range (min … max):   202.465 s … 244.548 s    10 runs
-Pyhthon: #14
+Pyhthon: #15
   More Than 20m
 ```
 
