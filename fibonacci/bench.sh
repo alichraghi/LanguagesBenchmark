@@ -1,3 +1,4 @@
+set -e -x
 gcc c.c -Ofast -o c
 g++ c++.cc -Ofast -o cpp
 rustc -C opt-level=3 rust.rs
@@ -9,6 +10,5 @@ crystal crystal.cr --release
 nelua nelua.nelua -r -w -M -o ./nelua
 go build go.go
 zig build-exe -O ReleaseFast zig.zig
-#mys build
 
 rm ocaml.cmi ocaml.cmo haskell.hi haskell.o
