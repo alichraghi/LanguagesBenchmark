@@ -15,16 +15,16 @@ RAM: 8GB DDR3
 DISK: ADATA SSD
 ```
 **Compilers Version**
-gcc: `11.2.1`
-clang: `13.0.0`
-zig: `0.9.1`
-odin: `dev-2022-04`
-v: `0.2.4`
-ocaml: `4.12.0`
-rust: `1.62.0-nightly`
-nelua: `0.2.0-dev`
-go: `1.16.15`
-crystal: `1.4.1`
+- gcc: `11.2.1`
+- clang: `13.0.0`
+- zig: `0.9.1`
+- odin: `dev-2022-04`
+- v: `0.2.4`
+- ocaml: `4.12.0`
+- rust: `1.62.0-nightly`
+- nelua: `0.2.0-dev`
+- go: `1.16.15`
+- crystal: `1.4.1`
 
 ## Execution Time:
 ```js
