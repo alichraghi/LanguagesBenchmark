@@ -1,14 +1,12 @@
 package main
 
-import "core:fmt"
-
 fib :: proc(n: u64) -> u64 {
-    if n <= u64(1) {
+    if n <= 1 {
         return n;
     }
-    return fib(n - u64(1)) + fib(n - u64(2));
+    return fib(n - 1) + fib(n - 2);
 }
 
 main :: proc() {
-    fmt.println(fib(47));
+    assert(fib(44) == 701408733);
 }

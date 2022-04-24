@@ -45,6 +45,8 @@
 # Kernel Module Compile Results
 *.mod*
 *.cmd
+**/bin
+**/cache
 .tmp_versions/
 modules.order
 Module.symvers

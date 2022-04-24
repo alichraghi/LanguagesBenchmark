@@ -1,4 +1,4 @@
-local function fib(n: integer): integer
+local function fib(n: uint64): uint64
   if n <= 1 then
     return n
   else
@@ -6,4 +6,4 @@ local function fib(n: integer): integer
   end
 end
 
-print(fib(47))
+assert(fib(44) == 701408733)
